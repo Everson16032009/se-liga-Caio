@@ -1,24 +1,23 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("formNoticia");
     const lista = document.getElementById("listaNoticias");
 
-    form.addEventListener("submit", (e) => {
+    form.addEventListener("submit", function (e) {
         e.preventDefault();
 
         let titulo = document.getElementById("titulo").value;
         let categoria = document.getElementById("categoria").value;
         let texto = document.getElementById("texto").value;
 
-        let box = document.createElement("div");
-        box.innerHTML = `
+        let item = document.createElement("div");
+        item.classList.add("card-noticia");
+        item.innerHTML = `
             <h3>${titulo}</h3>
             <small>${categoria}</small>
             <p>${texto}</p>
-            <hr>
         `;
 
-        lista.appendChild(box);
-
+        lista.appendChild(item);
         form.reset();
     });
 });
