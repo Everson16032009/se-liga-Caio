@@ -1,0 +1,25 @@
+body{margin:0;font-family:Arial;background:white;}
+
+header{background:#0a0c14;color:white;padding:15px;display:flex;align-items:center;justify-content:space-between;}
+
+.logo{height:60px;border-radius:8px;}
+
+nav a{color:white;margin:0 10px;text-decoration:none;font-size:15px;}
+
+.hero{text-align:center;padding:60px;background:#e6e6e6;}
+
+.titulo{text-align:center;margin:25px 0;}
+
+.card{background:#f0f0f0;padding:15px;margin:10px;border-left:5px solid #0a0c14;border-radius:5px;}
+
+.tema{width:90%;margin:auto;}
+
+.texto{width:80%;margin:auto;font-size:18px;}
+
+.formulario{width:80%;margin:auto;display:flex;flex-direction:column;gap:10px;}
+
+.formulario input,.formulario textarea{padding:8px;border:1px solid #ccc;border-radius:4px;}
+
+button{padding:10px;background:#0a0c14;color:white;border:none;border-radius:4px;cursor:pointer;}
+
+footer{text-align:center;padding:15px;background:#0a0c14;color:white;margin-top:40px;}
