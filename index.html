@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Colégio Ângelo Gusso</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="container">
+    <img class="logo" src="https://i.pinimg.com/736x/a3/0b/f3/a30bf375f9763882dc629ea93ddb1f14.jpg" alt="Logo do Colégio">
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="noticias.html">Notícias</a>
+      <a href="historia.html">História</a>
+      <a href="referencias.html">Referências</a>
+      <a href="admin.html" class="admin">ADMIN</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Portal de Notícias – Colégio Ângelo Gusso</h1>
+    <p>Acompanhe as principais informações, eventos e comunicados do colégio.</p>
+    <a class="btn" href="noticias.html">Acessar Notícias</a>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h2>Missão</h2>
+      <p>Formar cidadãos preparados para o futuro.</p>
+    </div>
+    <div class="card">
+      <h2>Visão</h2>
+      <p>Ser referência em ensino técnico e humano.</p>
+    </div>
+    <div class="card">
+      <h2>Contato</h2>
+      <p>secretaria@angelogusso.edu.br</p>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  © <span id="year"></span> Colégio Ângelo Gusso
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

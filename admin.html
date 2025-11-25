@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" class="logo">
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="historia.html">História</a>
+        <a href="admin.html">Admin</a>
+        <a href="referencias.html">Referências</a>
+    </nav>
+</header>
+
+<section class="conteudo">
+    <h2>Painel Administrativo</h2>
+
+    <form id="formNoticia">
+        <label>Título:</label>
+        <input type="text" id="titulo" required>
+
+        <label>Categoria:</label>
+        <input type="text" id="categoria" required>
+
+        <label>Conteúdo:</label>
+        <textarea id="texto" required></textarea>
+
+        <button type="submit">Publicar</button>
+    </form>
+
+    <div id="listaNoticias"></div>
+</section>
+
+<footer>© 2025 - Colégio Ângelo Gusso</footer>
+
+</body>
+</html>
